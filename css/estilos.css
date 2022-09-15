@@ -9,5 +9,21 @@
 }
 
 .centrado {
-    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    background: rgba(31,82,112,255);
+}
+
+.button {
+    background: rgba(150,201,62,255);
+}
+
+.bgBsAs {
+    background: rgba(53,58,64,255);
+}
+
+.izquierda {
+    text-align:left;
 }
