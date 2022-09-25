@@ -15,10 +15,11 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="logo">
+        <img src="imagenes/codoacodo.png" class="logoCont img-fluid">
+      </div>
         <div class="container-fluid">
-          <div class="logo">
-            <img src="imagenes/codoacodo.png" class="logoCont">
-          </div>  
+          <a class="navbar-brand textNav" href="#">Conf Bs As</a> 
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" href="#">La conferencia</a>
@@ -38,8 +39,21 @@
           </ul>
         </div>
       </nav>
-      <div>
-        <img src="imagenes/ba1.jpg" class="logoCont">
+      <div class="row">
+        <div class="col-12 cont">
+          <img src="imagenes/ba1.jpg" class="ba1">
+          <div class="text-light right col-5">
+              <h1>Conf Bs As</h1>
+              <h5>Bs As llega por primera vez a Argentina Un evento para compartir con
+                nuestra comunidad el conocimiento y experiencia de los expertos que 
+                estan creando el futuro de internet. Ven a conocer miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                nivel que tenemos para ti. Te esperamos!</h5>
+              <br>
+              <button type="button" class="btn btn-outline-secondary text-light">Quiero ser orador</button>
+              <button type="button" class="btn buttonTickets text-light">Comprar tickets</button>
+          </div>
+        </div>
       </div>
       <div class="text-center">
         <p>CONOCE A LOS</p>
@@ -85,11 +99,11 @@
         <div class="container-fluid my-5">
           <div class="row">
             <div class="col-6">
-                <img src="imagenes/honolulu.jpg" class="logoCont">
+                <img src="imagenes/honolulu.jpg" class="logoCont logoBsAs">
             </div>
             <div class="bgBsAs text-light col-6">
               <h2>Bs As - Octubre</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius porro iste hic quo dolorum accusamus voluptatem temporibus vero possimus maiores nesciunt blanditiis, itaque totam, rem veniam necessitatibus, amet voluptatum. Alias.</p>
+              <p>Buenos aires es la provincia y localidad mas grande del estardo de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla Oahu, la ciudad y el condadno de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
               <button type="button" class="btn btn-outline-light text-light">Conocé mas</button>
             </div>
           </div>
@@ -97,27 +111,31 @@
         <div class="text-center">
           <p>CONVIÉRTETE EN UN</p>
           <h1>ORADOR</h1>
-          <P>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</P>
+          <P>Anótate como orador para dar una <span class="puntitos">charla ignite</span>. Cuéntanos de qué quieres hablar!</P>
         </div>
         <div class="container">
-          <form action="">
-              <label for=""></label>
-              <input type="text" value="Nombre" size="69">
-              <label for=""></label>
-              <input type="text" value="Apellido" size="69">
+          <form action="" class="row justify-content-center my-1">
+            <div class="col-6">
+                <input type="text" value="Nombre" class="form-control">
+              </div>
+              <div class="col-6">
+                <input type="text" value="Apellido" class="form-control">
+            </div>
             <br>
-            <textarea class="logoCont" rows="5">Sobre que quieres hablar?</textarea>
+            <div>
+              <textarea class="form-control my-1" rows="5">Sobre que quieres hablar?</textarea>
+            </div>
             <br>
             <p class="izquierda">Recuerda incluir un titulo para tu charla</p>
             <br>
-              <div class="d-grid">
-                <input type="submit" class="button text-light">
-              </div> 
+            <div class="d-grid">
+              <button type="button" class="btn button btn-block text-light  ">Enviar</button>
+            </div>
           </form>
         </div>
           <footer class="footer my-2">
             <nav class="navbar navbar-expand-sm navbar-dark text-light">
-              <div class="container-fluid">
+              <div class="container">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active text-light" href="#">La conferencia</a>
@@ -133,6 +151,12 @@
                   </li>
                   <li class="nav-item">
                       <a class="nav-link disabled text-light" href="#">Conviertete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Los oradores</a>
                   </li>
                 </ul>
               </div>

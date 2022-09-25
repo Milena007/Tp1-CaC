@@ -1,11 +1,38 @@
+* {
+box-sizing: border-box;
+}
+
+.textNav {
+    text-align: left;
+}
+
 .logo {
-    max-width: 5rem;
-    margin-left: 0;
+    max-width: 6rem;
+    margin-left: 0;  
     display: inline-block;
+}
+
+.cont {
+    max-height: 75%;
+}
+
+.ba1 {
+    width: 100%;
+    
+    height: 90%;
 }
 
 .logoCont {
     width: 100%;
+}
+
+.right {
+    text-align: right;
+    position: absolute;
+    box-sizing: content-box;
+    margin-left:55%;
+    margin-right: 5%;
+    top: 40%;
 }
 
 .centrado {
@@ -19,6 +46,9 @@
 .button {
     background: rgba(150,201,62,255);
 }
+.buttonTickets {
+    background: #28a744;
+}
 
 .bgBsAs {
     background: rgba(53,58,64,255);
@@ -26,4 +56,9 @@
 
 .izquierda {
     text-align:left;
+}
+
+.puntitos {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
