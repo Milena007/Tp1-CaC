@@ -46,6 +46,7 @@ box-sizing: border-box;
 .button {
     background: rgba(150,201,62,255);
 }
+
 .buttonTickets {
     background: #28a744;
 }
@@ -61,4 +62,8 @@ box-sizing: border-box;
 .puntitos {
     text-decoration-line: underline;
     text-decoration-style: dotted;
+}
+
+.fondoValorEntrada {
+    background-color: rgba(204,229,255,255);
 }
